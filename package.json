@@ -4,13 +4,14 @@
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
-		"dev": "wrangler dev",
+		"dev": "wrangler dev --port 3000 --remote",
 		"start": "wrangler dev",
 		"test": "vitest",
 		"cf-typegen": "wrangler types"
 	},
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"prettier": "3.7.4",
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
 		"wrangler": "4.58.0"
