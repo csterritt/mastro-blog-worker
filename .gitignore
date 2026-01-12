@@ -165,3 +165,10 @@ dist
 .env*
 !.env.example
 .wrangler/
+public/about/
+public/gallery/
+public/404.html
+public/in-styles.css
+public/index.html
+public/robots.txt
+public/styles.css
